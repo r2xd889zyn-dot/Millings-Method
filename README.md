@@ -2,33 +2,31 @@
 
 Canonical architecture map and documentation hub for the Millings Layering Method™ and related governance, authorship, and structural integrity systems.
 
-The Millings Method™ is a governance-first architecture for human-authored intelligence, structural integrity, and pre-execution authorization in automated systems.
+The Millings Method™ is a governance-first architecture that enforces human-authored authority, structural integrity, and pre-execution control across automated systems.
 
 ---
 
 ## System Architecture
 
-```
 Millings Method
 │
-├─ Governance Framework
-│  → millings-method-governance-framework
+├─ Governance Framework  
+│  → millings-method-governance-framework  
 │
-├─ GuardianOS
-│  → guardianos
+├─ GuardianOS  
+│  → guardianos  
 │
-├─ Constraint Layer
-│  → millings-constraint-layer
+├─ Constraint Layer  
+│  → millings-constraint-layer  
 │
-├─ Execution Gate
-│  → millings-gate
+├─ Execution Gate  
+│  → millings-gate  
 │
-├─ Structural Integrity Reference
-│  → mmct-structural-integrity-reference
+├─ Structural Integrity Reference  
+│  → mmct-structural-integrity-reference  
 │
-└─ Evaluation Systems
-   → mlag-eval
-```
+└─ Evaluation Systems  
+   → mlag-eval  
 
 ---
 
@@ -40,7 +38,7 @@ The purpose of the Millings Method™ architecture is to provide a structured fr
 • structural integrity in AI systems  
 • pre-execution authorization controls  
 • constraint-governed automated decision pathways  
-• transparent governance layers for automated and AI-assisted systems
+• transparent governance layers for automated and AI-assisted systems  
 
 ---
 
@@ -48,7 +46,7 @@ The purpose of the Millings Method™ architecture is to provide a structured fr
 
 The Millings Method™ prioritizes:
 
-provenance → chronology → constraint validation → execution decision
+provenance → chronology → constraint validation → execution decision  
 
 Automated systems should not transition from reasoning to action without passing through explicit governance and constraint layers.
 
@@ -60,7 +58,7 @@ Execution occurs only when required authority, provenance artifacts, and constra
 
 ## Relationship to Subsystems
 
-This repository acts as the **central architecture map** linking the various subsystem repositories that demonstrate different components of the Millings Method™.
+This repository acts as the central architecture map linking the various subsystem repositories that demonstrate different components of the Millings Method™.
 
 Subsystems include governance frameworks, constraint layers, execution gates, structural integrity references, and evaluation environments.
 
@@ -68,4 +66,4 @@ Subsystems include governance frameworks, constraint layers, execution gates, st
 
 ## Authorship & Origin
 
-See **ORIGIN_OF_SYSTEM.md** for historical origin and authorship documentation of the Millings Layering Method™.
+See `ORIGIN_OF_SYSTEM.md` for historical origin and authorship documentation of the Millings Layering Method™.
