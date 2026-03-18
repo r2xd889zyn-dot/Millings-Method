@@ -67,3 +67,4 @@ Subsystems include governance frameworks, constraint layers, execution gates, st
 ## Authorship & Origin
 
 See `ORIGIN_OF_SYSTEM.md` for historical origin and authorship documentation of the Millings Layering Method™.
+
