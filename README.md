@@ -1,65 +1,108 @@
 # Millings Method™
 
-Canonical architecture map and documentation hub for the Millings Layering Method™ and related governance, authorship, and structural integrity systems.
-
-The Millings Method™ is a governance-first architecture that enforces human-authored authority, structural integrity, and pre-execution control across automated systems.
+Canonical architecture map and documentation hub for the Millings Layering Method™ and its governance, authorship, and structural integrity systems.
 
 ---
 
-## System ArchitectureMillings Method
-│
-├─ Governance Framework
-│  → millings-method-governance-framework
-│
-├─ GuardianOS
-│  → guardianos
-│
-├─ Constraint Layer
-│  → millings-constraint-layer
-│
-├─ Execution Gate
-│  → millings-gate
-│
-├─ Structural Integrity Reference
-│  → mmct-structural-integrity-reference
-│
-└─ Evaluation Systems
-→ mlag-eval---
+## Overview
 
-## Purpose
+The Millings Method™ is a governance-first architecture designed to enforce:
 
-The purpose of the Millings Method™ architecture is to provide a structured framework ensuring:
+- human-authored authority
+- structural integrity of system state
+- pre-execution control over automated processes
 
-- human authorship traceability  
-- structural integrity in AI systems  
-- pre-execution authorization controls  
-- constraint-governed automated decision pathways  
-- transparent governance layers for automated and AI-assisted systems  
+It introduces a control point **before execution**, ensuring that systems act only on valid, verified, and governed state.
 
 ---
 
-## Governance Principle
+## Core Principle
 
-The Millings Method™ prioritizes:
+The system operates on a strict sequence:
 
 **provenance → chronology → constraint validation → execution decision**
 
-Automated systems should not transition from reasoning to action without passing through explicit governance and constraint layers.
-
-Narrative pressure, signal volume, or unverified assertions do not trigger execution.
-
-Execution occurs only when required authority, provenance artifacts, and constraint conditions are satisfied.
+No system action occurs unless all required governance layers are satisfied.
 
 ---
 
-## Relationship to Subsystems
+## System ArchitectureMillings Method™
 
-This repository acts as the central architecture map linking the various subsystem repositories that demonstrate different components of the Millings Method™.
+├─ Governance Framework → millings-method-governance-framework
+├─ GuardianOS → guardianos
+├─ Constraint Layer → millings-constraint-layer
+├─ Execution Gate → millings-gate
+├─ Structural Integrity Reference → mmct-structural-integrity-reference
+└─ Evaluation Systems → mlag-eval---
 
-Subsystems include governance frameworks, constraint layers, execution gates, structural integrity references, and evaluation environments.
+## Purpose
+
+The architecture exists to ensure:
+
+- authorship traceability across systems
+- integrity of state before execution
+- constraint-based decision enforcement
+- controlled and auditable automation
+- transparent governance in AI and system workflows
+
+---
+
+## Governance Model
+
+The Millings Method™ enforces:
+
+- No execution without validated state
+- No transition from reasoning to action without constraint verification
+- No reliance on narrative, volume, or unverified signals
+
+Execution is permitted only when:
+
+- provenance is established  
+- constraints are satisfied  
+- authority is verified  
+
+---
+
+## System Role
+
+This repository acts as the **central architecture map**, connecting all subsystem repositories.
+
+Each subsystem represents a functional layer of the broader framework:
+- governance
+- constraint enforcement
+- execution gating
+- structural validation
+- evaluation systems
+
+---
+
+## Applications
+
+- AI governance systems  
+- agentic AI validation layers  
+- workflow orchestration  
+- enterprise system control frameworks  
+- decision validation engines  
 
 ---
 
 ## Authorship & Origin
 
-See `ORIGIN_OF_SYSTEM.md` for historical origin and authorship documentation of the Millings Layering Method™.
+See `ORIGIN_OF_SYSTEM.md` for documentation of system origin and authorship.
+
+---
+
+## Direction
+
+This repository will continue to expand to include:
+
+- executable validation systems  
+- API integration layers  
+- governance enforcement modules  
+- real-world system implementations  
+
+---
+
+## License
+
+MIT
